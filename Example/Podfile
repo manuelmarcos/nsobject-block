@@ -1,0 +1,6 @@
+use_frameworks!
+target 'nsobject-block_Tests' do
+  pod 'nsobject-block', :path => '../'
+  
+  
+end
