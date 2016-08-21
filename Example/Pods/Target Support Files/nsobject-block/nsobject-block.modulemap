@@ -1,0 +1,6 @@
+framework module nsobject_block {
+  umbrella header "nsobject-block-umbrella.h"
+
+  export *
+  module * { export * }
+}

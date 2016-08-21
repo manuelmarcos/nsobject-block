@@ -1,0 +1,6 @@
+framework module Pods_nsobject_block_Tests {
+  umbrella header "Pods-nsobject-block_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - nsobject-block (0.1.0)
+
+DEPENDENCIES:
+  - nsobject-block (from `../`)
+
+EXTERNAL SOURCES:
+  nsobject-block:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  nsobject-block: cd13a82cc1a491135848221bf94bbaf78dc74ae0
+
+PODFILE CHECKSUM: d9ce85e57204365a11a24036d7aac6b51fdccd97
+
+COCOAPODS: 1.0.1

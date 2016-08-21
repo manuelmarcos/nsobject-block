@@ -1,0 +1,22 @@
+{
+  "name": "nsobject-block",
+  "version": "0.1.0",
+  "summary": "A short description of nsobject-block.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/nsobject-block",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Manuel Marcos Regalado": "manuel@ribot.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/nsobject-block.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "nsobject-block/Classes/**/*"
+}
