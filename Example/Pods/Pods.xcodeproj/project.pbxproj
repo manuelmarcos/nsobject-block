@@ -10,6 +10,8 @@
 		12731D4E59187697E6681F89EEF0E9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		28437E62CD969D2F709CF80C38B6982D /* Pods-nsobject-block_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A60002561E6F33D480D49B8C8585550 /* Pods-nsobject-block_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C484024426222FD6C96EC0D6D33AB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F4C19951D69B91C00658153 /* NSObject+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4C19931D69B91C00658153 /* NSObject+Block.h */; };
+		9F4C19961D69B91C00658153 /* NSObject+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C19941D69B91C00658153 /* NSObject+Block.m */; };
 		A8FAD558105752F3A16724B6C450F68A /* nsobject-block-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D859593F669968A2F67C33F5E9EBF652 /* nsobject-block-dummy.m */; };
 		AFFB142A1D016A4BD7FFBC6BA39A44F1 /* Pods-nsobject-block_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A01A27A2BF276BD0A8B1AF882C981E /* Pods-nsobject-block_Tests-dummy.m */; };
 		BBC8E1F8B6C68915F39F711AEA8EA3AC /* nsobject-block-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7F73D765BE4A78489C905922D18A21 /* nsobject-block-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +41,8 @@
 		71A01A27A2BF276BD0A8B1AF882C981E /* Pods-nsobject-block_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nsobject-block_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D96D33ADC2C232FA65C4ACB6AAD6759 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4C19931D69B91C00658153 /* NSObject+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Block.h"; sourceTree = "<group>"; };
+		9F4C19941D69B91C00658153 /* NSObject+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Block.m"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFB9B1FF21B19A40C023AB7C93E2C64E /* Pods-nsobject-block_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nsobject-block_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D859593F669968A2F67C33F5E9EBF652 /* nsobject-block-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nsobject-block-dummy.m"; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 		A6BF00EC405808A705E5C71BDBA2CA2F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F4C19931D69B91C00658153 /* NSObject+Block.h */,
+				9F4C19941D69B91C00658153 /* NSObject+Block.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4C19951D69B91C00658153 /* NSObject+Block.h in Headers */,
 				BBC8E1F8B6C68915F39F711AEA8EA3AC /* nsobject-block-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FAD558105752F3A16724B6C450F68A /* nsobject-block-dummy.m in Sources */,
+				9F4C19961D69B91C00658153 /* NSObject+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
