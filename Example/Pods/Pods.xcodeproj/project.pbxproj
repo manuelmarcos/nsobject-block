@@ -13,7 +13,6 @@
 		A8FAD558105752F3A16724B6C450F68A /* nsobject-block-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D859593F669968A2F67C33F5E9EBF652 /* nsobject-block-dummy.m */; };
 		AFFB142A1D016A4BD7FFBC6BA39A44F1 /* Pods-nsobject-block_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A01A27A2BF276BD0A8B1AF882C981E /* Pods-nsobject-block_Tests-dummy.m */; };
 		BBC8E1F8B6C68915F39F711AEA8EA3AC /* nsobject-block-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7F73D765BE4A78489C905922D18A21 /* nsobject-block-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E728B6E6102F5565CB2158FAEE1ED7E9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CBDECC858DD76220A50F0D364B6BEF /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		2D15C7DC1B6CDD16736A81246D4426A5 /* nsobject-block-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nsobject-block-prefix.pch"; sourceTree = "<group>"; };
 		2F74A25C1FB57E4C186221DE16691BCA /* Pods-nsobject-block_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nsobject-block_Tests.modulemap"; sourceTree = "<group>"; };
 		333CA84BB09E4148A622ABDFCC212F49 /* Pods-nsobject-block_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nsobject-block_Tests-resources.sh"; sourceTree = "<group>"; };
-		36CBDECC858DD76220A50F0D364B6BEF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		3916A9AD006542381AD5B6B1EEB9A9EC /* Pods-nsobject-block_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nsobject-block_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A60002561E6F33D480D49B8C8585550 /* Pods-nsobject-block_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nsobject-block_Tests-umbrella.h"; sourceTree = "<group>"; };
 		68DAB78135F3CAD60B685322D778DE09 /* nsobject-block.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "nsobject-block.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 		A6BF00EC405808A705E5C71BDBA2CA2F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				36CBDECC858DD76220A50F0D364B6BEF /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FAD558105752F3A16724B6C450F68A /* nsobject-block-dummy.m in Sources */,
-				E728B6E6102F5565CB2158FAEE1ED7E9 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
