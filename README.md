@@ -8,7 +8,7 @@
 ## Import
 
 ```objective-c
-#import "NSObject+EFExtras.h"
+#import "NSObject+Block.h"
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ static const CGFloat kSecondsDelay = 0.0f;
 
 [self performBlock:^{
             // Code run after delay
-        } afterDelay:kDelay];
+        } afterDelay:kSecondsDelay];
 ```
 
 ## Requirements
