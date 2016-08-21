@@ -5,9 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/nsobject-block.svg?style=flat)](http://cocoapods.org/pods/nsobject-block)
 [![Platform](https://img.shields.io/cocoapods/p/nsobject-block.svg?style=flat)](http://cocoapods.org/pods/nsobject-block)
 
-## Example
+## Import
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objective-c
+#import "NSObject+EFExtras.h"
+```
+
+## Usage
+
+```objective-c
+// Define delay time in seconds 
+static const CGFloat kSecondsDelay = 0.0f;
+
+// ...
+
+[self performBlock:^{
+            // Code run after delay
+        } afterDelay:kDelay];
+```
 
 ## Requirements
 
